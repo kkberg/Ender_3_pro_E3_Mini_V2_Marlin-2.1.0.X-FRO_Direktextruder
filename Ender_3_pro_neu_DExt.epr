@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repetier-Firmware-EEPROM>
+	<epr pos="0" type="3" value="80.00">X axis resolution [Steps/mm]</epr>
+	<epr pos="1" type="3" value="80.00">Y axis resolution [Steps/mm]</epr>
+	<epr pos="2" type="3" value="400.00">Z axis resolution [Steps/mm]</epr>
+	<epr pos="3" type="3" value="144.40">E axis resolution [Steps/mm]</epr>
+	<epr pos="9" type="3" value="800.00">X axis max. feedrate [mm/s]</epr>
+	<epr pos="10" type="3" value="750.00">Y axis max. feedrate [mm/s]</epr>
+	<epr pos="11" type="3" value="5.00">Z axis max. feedrate [mm/s]</epr>
+	<epr pos="12" type="3" value="25.00">E axis max. feedrate [mm/s]</epr>
+	<epr pos="28" type="3" value="500.00">X axis max. acceleration [mm/s²]</epr>
+	<epr pos="29" type="3" value="450.00">Y axis max. acceleration [mm/s²]</epr>
+	<epr pos="30" type="3" value="100.00">Z axis max. acceleration [mm/s²]</epr>
+	<epr pos="31" type="3" value="5000.00">E axis max. acceleration [mm/s²]</epr>
+	<epr pos="37" type="3" value="500.00">Acceleration printing [mm/s²]</epr>
+	<epr pos="39" type="3" value="500.00">Acceleration retract [mm/s²]</epr>
+	<epr pos="40" type="3" value="0.00">Minimum feedrate [mm/s]</epr>
+	<epr pos="42" type="3" value="20000.00">Minimum segment time [ms]</epr>
+	<epr pos="157" type="3" value="0.00">Minimum travel feedrate [mm/s]</epr>
+	<epr pos="47" type="3" value="0.00">Home offset X [mm]</epr>
+	<epr pos="48" type="3" value="0.00">Home offset Y [mm]</epr>
+	<epr pos="49" type="3" value="0.00">Home offset Z [mm]</epr>
+	<epr pos="152" type="bool" value="0">Bed leveling enabled [0/1]</epr>
+	<epr pos="153" type="3" value="10.00">Bed leveling fade height [mm/s]</epr>
+	<epr pos="81" type="2" value="185">Preheat 1 Extruder temperature [°C]</epr>
+	<epr pos="82" type="2" value="45">Preheat 1 Bed temperature [°C]</epr>
+	<epr pos="83" type="2" value="255">Preheat 1 Fan speed [0-255]</epr>
+	<epr pos="84" type="2" value="240">Preheat 2 Extruder temperature [°C]</epr>
+	<epr pos="85" type="2" value="110">Preheat 2 Bed temperature [°C]</epr>
+	<epr pos="86" type="2" value="255">Preheat 2 Fan speed [0-255]</epr>
+	<epr pos="90" type="3" value="21.73">PID P</epr>
+	<epr pos="91" type="3" value="1.54">PID I</epr>
+	<epr pos="92" type="3" value="76.55">PID D</epr>
+	<epr pos="159" type="bool" value="1">Controller fan automatic [0/1]</epr>
+	<epr pos="160" type="3" value="60">Controller fan delay [s]</epr>
+	<epr pos="161" type="3" value="0">Controller fan speed motors off [0-255]</epr>
+	<epr pos="162" type="3" value="255">Controller fan speed motors on [0-255]</epr>
+	<epr pos="154" type="3" value="-1.65">Z probe offset [mm]</epr>
+	<epr pos="155" type="3" value="0.00">Advance K</epr>
+</Repetier-Firmware-EEPROM>
